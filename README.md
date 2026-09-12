@@ -1,8 +1,8 @@
-# nutrilog-data
+# keema-data
 
-Food database releases for the NutriLog iPhone app. The app checks
+Food database releases for the Keema iPhone app. The app checks
 `releases/latest/download/manifest.json` about once a week over Wi-Fi and
-downloads `nutrilog.db.gz` when the manifest's `dataVersion` is newer than
+downloads `keema.db.sealed` when the manifest's `dataVersion` is newer than
 the file it has. Nothing is uploaded; nothing about the phone is recorded
 here beyond what GitHub logs for any download.
 
@@ -22,12 +22,12 @@ No Open Food Facts data is included; the app queries it live instead.
 
 | File | What |
 |---|---|
-| `nutrilog.db.gz` | SQLite database with an FTS5 index, gzipped |
+| `keema.db.sealed` | SQLite database with an FTS5 index, gzipped and sealed for the app |
 | `manifest.json` | `dataVersion`, `schemaVersion`, SHA-256, size, food count |
 
 The build scripts live with the app's source.
 
 ## Terms
 
-For the app's use only. See LICENSE.md. The USDA portion is public domain; the
+For the app's use only. The file is sealed and opens only inside the app. See LICENSE.md. The USDA portion is public domain; the
 compilation is not.

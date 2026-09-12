@@ -2,8 +2,8 @@
 
 Copyright (c) 2026 SinaShifa. All rights reserved in the compilation.
 
-The files published here are the food database for the SinaShifa food
-logging app. They are provided for use **by that app only**.
+The files published here are the food database for the Keema food logging app
+by SinaShifa. They are provided for use **by that app only**.
 
 You may not download, copy, redistribute, host, or incorporate these files
 or their contents into any other product, service, dataset, or database
