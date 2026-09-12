@@ -26,3 +26,8 @@ No Open Food Facts data is included; the app queries it live instead.
 | `manifest.json` | `dataVersion`, `schemaVersion`, SHA-256, size, food count |
 
 The build scripts live with the app's source.
+
+## Terms
+
+For the app's use only. See LICENSE.md. The USDA portion is public domain; the
+compilation is not.
